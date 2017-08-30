@@ -7,8 +7,10 @@ import static java.lang.Math.abs;
 import static java.lang.System.in;
 import static java.lang.System.out;
 
-public class DiagonalSequence {
-    public void solve() {
+// https://www.hackerrank.com/challenges/diagonal-difference
+
+class DiagonalSequence {
+    void solve() {
         Scanner scanner = new Scanner(in);
 
         int rows = parseInt(scanner.nextLine());

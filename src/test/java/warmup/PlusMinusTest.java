@@ -5,16 +5,15 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class DiagonalSequenceTest extends AbstractInOutTest {
+public class PlusMinusTest extends AbstractInOutTest {
+    private PlusMinus exercise = new PlusMinus();
 
-    private DiagonalSequence exercise = new DiagonalSequence();
+    private static final String INPUT = "6\n" +
+            "-4 3 -9 0 4 1\n";
 
-    private static final String INPUT = "3\n" +
-            "11 2 4\n" +
-            "4 5 6\n" +
-            "10 8 -12\n";
-
-    private static final String OUTPUT = "15\n";
+    private static final String OUTPUT = "0.500000\n" +
+            "0.333333\n" +
+            "0.166667\n";
 
     @Test
     public void shouldSolveExerciseForTestInput() {
@@ -24,4 +23,5 @@ public class DiagonalSequenceTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT);
     }
+
 }
