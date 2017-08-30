@@ -23,5 +23,4 @@ public class PlusMinusTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT);
     }
-
 }
