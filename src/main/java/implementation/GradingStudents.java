@@ -6,6 +6,8 @@ import static java.lang.Integer.parseInt;
 import static java.lang.System.in;
 import static java.lang.System.out;
 
+// https://www.hackerrank.com/challenges/grading/problem
+
 class GradingStudents {
 
     public void solve() {

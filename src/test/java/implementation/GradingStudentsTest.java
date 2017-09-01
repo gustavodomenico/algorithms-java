@@ -27,5 +27,4 @@ public class GradingStudentsTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT);
     }
-
 }
