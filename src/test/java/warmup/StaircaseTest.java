@@ -25,5 +25,4 @@ public class StaircaseTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT);
     }
-
 }
