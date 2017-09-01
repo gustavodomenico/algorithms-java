@@ -2,8 +2,8 @@ package warmup;
 
 import java.util.Scanner;
 
-import static java.lang.Integer.MAX_VALUE;
-import static java.lang.Integer.MIN_VALUE;
+import static java.lang.Long.MAX_VALUE;
+import static java.lang.Long.MIN_VALUE;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 import static java.lang.System.in;
@@ -24,7 +24,7 @@ class MiniMaxSum {
         long min = MAX_VALUE;
 
         for(int i = 0; i < 5; i++) {
-            int sum = 0;
+            long sum = 0;
             for(int j = 0; j < 5; j++) {
                 // Sum all except the current "i" one
                 if (i != j) {

@@ -20,4 +20,14 @@ public class MiniMaxSumTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT);
     }
+
+    @Test
+    public void shouldSolveExerciseForBigNumbersInput() {
+        input("1000000000 999999999 999999998 999999997 999999996\n");
+
+        exercise.solve();
+
+        assertThat(output()).isEqualTo("3999999990 3999999994\n");
+    }
+
 }
