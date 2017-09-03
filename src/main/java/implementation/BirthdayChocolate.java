@@ -34,6 +34,7 @@ class BirthdayChocolate {
 
     public void solve() {
         // Given code
+        
         Scanner in = new Scanner(System.in);
 
         int n = in.nextInt();

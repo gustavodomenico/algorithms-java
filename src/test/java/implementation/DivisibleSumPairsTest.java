@@ -35,5 +35,4 @@ public class DivisibleSumPairsTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT_CASE7);
     }
-
 }
