@@ -23,6 +23,4 @@ public class BetweenTwoSetsTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT);
     }
-
-
 }

@@ -43,5 +43,4 @@ public class KangarooTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT_CASE13);
     }
-
 }
