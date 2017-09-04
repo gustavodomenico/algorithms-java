@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class GradingStudentsTest extends AbstractInOutTest {
+public class GradingStudentsTest extends InOutTest {
     private GradingStudents exercise = new GradingStudents();
 
     private static final String INPUT = "4\n" +

@@ -1,11 +1,11 @@
 package warmup;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class StaircaseTest extends AbstractInOutTest {
+public class StaircaseTest extends InOutTest {
     private Staircase exercise = new Staircase();
 
     private static final String INPUT = "6\n";

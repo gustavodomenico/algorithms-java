@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class AppleAndOrangeTest extends AbstractInOutTest {
+public class AppleAndOrangeTest extends InOutTest {
     private AppleAndOrange exercise = new AppleAndOrange();
 
     private static final String INPUT = "7 11\n" +

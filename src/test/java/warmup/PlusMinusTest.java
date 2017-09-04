@@ -1,11 +1,11 @@
 package warmup;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class PlusMinusTest extends AbstractInOutTest {
+public class PlusMinusTest extends InOutTest {
     private PlusMinus exercise = new PlusMinus();
 
     private static final String INPUT = "6\n" +

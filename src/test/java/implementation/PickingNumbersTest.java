@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class PickingNumbersTest extends AbstractInOutTest  {
+public class PickingNumbersTest extends InOutTest {
     private PickingNumbers exercise = new PickingNumbers();
 
     private static final String INPUT_SAMPLE0 = "6\n" +
@@ -35,5 +35,4 @@ public class PickingNumbersTest extends AbstractInOutTest  {
 
         assertThat(output()).isEqualTo(OUTPUT_SAMPLE1);
     }
-
 }

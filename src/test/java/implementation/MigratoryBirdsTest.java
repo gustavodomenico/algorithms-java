@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class MigratoryBirdsTest extends AbstractInOutTest {
+public class MigratoryBirdsTest extends InOutTest {
     private MigratoryBirds exercise = new MigratoryBirds();
 
     private static final String INPUT_SAMPLE0 = "6\n" +

@@ -5,20 +5,18 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FormingMagicSquareTest extends InOutTest {
-    private FormingMagicSquare exercise = new FormingMagicSquare();
+public class DesignerPDFViewerTest extends InOutTest {
+    private DesignerPDFViewer exercise = new DesignerPDFViewer();
 
-    private static final String INPUT_SAMPLE0 = "4 9 2\n" +
-            "3 5 7\n" +
-            "8 1 5\n";
+    private static final String INPUT_SAMPLE0 = "1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5\n" +
+            "abc\n";
 
-    private static final String OUTPUT_SAMPLE0 = "1\n";
+    private static final String OUTPUT_SAMPLE0 = "9\n";
 
-    private static final String INPUT_SAMPLE1 = "4 8 2\n" +
-            "4 5 7\n" +
-            "6 1 6\n";
+    private static final String INPUT_SAMPLE1 = "1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 7\n" +
+            "zaba\n";
 
-    private static final String OUTPUT_SAMPLE1 = "4\n";
+    private static final String OUTPUT_SAMPLE1 = "28\n";
 
     @Test
     public void shouldSolveExerciseForFirstTestInput() {
@@ -37,4 +35,5 @@ public class FormingMagicSquareTest extends InOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT_SAMPLE1);
     }
+
 }

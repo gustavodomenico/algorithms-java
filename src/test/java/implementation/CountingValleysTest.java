@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class CountingValleysTest extends AbstractInOutTest {
+public class CountingValleysTest extends InOutTest {
     private CountingValleys exercise = new CountingValleys();
 
     private static final String INPUT_SAMPLE0 = "8\n" +

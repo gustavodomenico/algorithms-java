@@ -1,11 +1,11 @@
 package warmup;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BirthdayCakeCandlesTest extends AbstractInOutTest {
+public class BirthdayCakeCandlesTest extends InOutTest {
     private BirthdayCakeCandles exercise = new BirthdayCakeCandles();
 
     private static final String INPUT = "4\n" +

@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class SockMerchantTest extends AbstractInOutTest {
+public class SockMerchantTest extends InOutTest {
     private SockMerchant exercise = new SockMerchant();
 
     private static final String INPUT_SAMPLE0 = "9\n" +

@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class KangarooTest extends AbstractInOutTest {
+public class KangarooTest extends InOutTest {
     private Kangaroo exercise = new Kangaroo();
 
     private static final String INPUT_CASE0 = "0 3 4 2\n";

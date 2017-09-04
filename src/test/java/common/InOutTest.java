@@ -9,7 +9,7 @@ import java.io.PrintStream;
 import static java.lang.System.setIn;
 import static java.lang.System.setOut;
 
-public class AbstractInOutTest {
+public class InOutTest {
 
     private ByteArrayOutputStream outputStream;
 

@@ -1,11 +1,11 @@
 package warmup;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TimeConversionTest extends AbstractInOutTest {
+public class TimeConversionTest extends InOutTest {
     private TimeConversion exercise = new TimeConversion();
 
     private static final String INPUT = "07:05:45PM\n";

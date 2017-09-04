@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class DivisibleSumPairsTest extends AbstractInOutTest {
+public class DivisibleSumPairsTest extends InOutTest {
     private DivisibleSumPairs exercise = new DivisibleSumPairs();
 
     private static final String INPUT_SAMPLE0 = "6 3\n" +

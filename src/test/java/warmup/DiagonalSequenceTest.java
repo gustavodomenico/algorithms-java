@@ -1,11 +1,11 @@
 package warmup;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class DiagonalSequenceTest extends AbstractInOutTest {
+public class DiagonalSequenceTest extends InOutTest {
 
     private DiagonalSequence exercise = new DiagonalSequence();
 

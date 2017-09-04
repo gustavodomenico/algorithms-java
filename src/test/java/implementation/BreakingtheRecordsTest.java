@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BreakingtheRecordsTest extends AbstractInOutTest {
+public class BreakingtheRecordsTest extends InOutTest {
     private BreakingtheRecords exercise = new BreakingtheRecords();
 
     private static final String INPUT_SAMPLE0 = "9\n" +

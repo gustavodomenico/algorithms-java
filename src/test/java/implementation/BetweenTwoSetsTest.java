@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BetweenTwoSetsTest extends AbstractInOutTest {
+public class BetweenTwoSetsTest extends InOutTest {
 
     private BetweenTwoSets exercise = new BetweenTwoSets();
 

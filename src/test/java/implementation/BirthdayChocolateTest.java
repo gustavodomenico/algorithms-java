@@ -1,11 +1,11 @@
 package implementation;
 
-import common.AbstractInOutTest;
+import common.InOutTest;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BirthdayChocolateTest extends AbstractInOutTest {
+public class BirthdayChocolateTest extends InOutTest {
     private BirthdayChocolate exercise = new BirthdayChocolate();
 
     private static final String INPUT_SAMPLE0 = "5\n" +
