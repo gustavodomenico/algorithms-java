@@ -37,5 +37,4 @@ public class BonAppetitTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT_SAMPLE1);
     }
-
 }

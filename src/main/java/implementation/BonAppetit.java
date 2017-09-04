@@ -1,10 +1,10 @@
 package implementation;
 
-// https://www.hackerrank.com/challenges/bon-appetit/problem
-
 import java.util.Scanner;
 
 import static java.lang.String.valueOf;
+
+// https://www.hackerrank.com/challenges/bon-appetit/problem
 
 class BonAppetit {
 
