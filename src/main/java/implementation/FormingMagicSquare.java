@@ -6,9 +6,11 @@ import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Math.abs;
 import static java.lang.System.out;
 
+// https://www.hackerrank.com/challenges/magic-square-forming/problem
+
 class FormingMagicSquare {
 
-    public static final int MATRIX_SIZE = 3;
+    private static final int MATRIX_SIZE = 3;
 
     public void solve() {
         // Given code
