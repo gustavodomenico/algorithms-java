@@ -21,5 +21,4 @@ public class CountingValleysTest extends AbstractInOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT_SAMPLE0);
     }
-
 }
