@@ -1,10 +1,12 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 // https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
 
-class DivisibleSumPairs {
+class DivisibleSumPairs implements Exercise {
 
     private static int divisibleSumPairs(int n, int k, int[] ar) {
         int matches = 0;

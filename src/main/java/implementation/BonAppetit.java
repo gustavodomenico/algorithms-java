@@ -1,12 +1,14 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 import static java.lang.String.valueOf;
 
 // https://www.hackerrank.com/challenges/bon-appetit/problem
 
-class BonAppetit {
+class BonAppetit implements Exercise {
 
     private static String bonAppetit(int n, int k, int b, int[] ar) {
         int fairAmount = 0;

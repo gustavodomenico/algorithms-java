@@ -3,9 +3,11 @@ package implementation;
 
 // https://www.hackerrank.com/challenges/the-birthday-bar/problem
 
+import common.Exercise;
+
 import java.util.Scanner;
 
-class BirthdayChocolate {
+class BirthdayChocolate implements Exercise {
 
     static int solve(int n, int[] s, int d, int m){
         int breaks = 0;

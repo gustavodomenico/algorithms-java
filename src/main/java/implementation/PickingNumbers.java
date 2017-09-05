@@ -1,5 +1,7 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,7 +9,7 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/picking-numbers/problem
 
-class PickingNumbers {
+class PickingNumbers implements Exercise {
 
     public void solve() {
         // Given code

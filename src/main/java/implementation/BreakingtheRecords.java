@@ -1,10 +1,12 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 // https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
 
-class BreakingtheRecords {
+class BreakingtheRecords implements Exercise {
 
     private static int[] getRecord(int[] s) {
         int lowest = s[0];

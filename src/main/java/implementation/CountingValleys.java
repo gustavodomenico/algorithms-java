@@ -1,5 +1,7 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 import static java.lang.Integer.parseInt;
@@ -8,7 +10,7 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/counting-valleys/problem
 
-class CountingValleys {
+class CountingValleys implements Exercise {
 
     public void solve() {
         Scanner scanner = new Scanner(in);

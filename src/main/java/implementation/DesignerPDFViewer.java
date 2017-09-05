@@ -1,5 +1,7 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -8,7 +10,7 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/picking-numbers/problem
 
-class DesignerPDFViewer {
+class DesignerPDFViewer implements Exercise {
 
     public void solve() {
         // Given code

@@ -1,5 +1,7 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -7,7 +9,7 @@ import java.util.Scanner;
 
 // https://www.hackerrank.com/challenges/migratory-birds/problem
 
-class MigratoryBirds {
+class MigratoryBirds implements Exercise {
 
     private static int migratoryBirds(int n, int[] ar) {
         Map<Integer, Integer> typeMap = new HashMap<>();

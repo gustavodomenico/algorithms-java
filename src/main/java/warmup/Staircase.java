@@ -1,5 +1,7 @@
 package warmup;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 import static java.lang.Integer.parseInt;
@@ -10,8 +12,8 @@ import static java.util.Collections.nCopies;
 
 // https://www.hackerrank.com/challenges/staircase/problem
 
-class Staircase {
-    void solve() {
+class Staircase implements Exercise {
+    public void solve() {
         Scanner scanner = new Scanner(in);
 
         int ladderSize = parseInt(scanner.nextLine());

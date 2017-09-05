@@ -1,5 +1,7 @@
 package warmup;
 
+import common.Exercise;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -10,8 +12,8 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/birthday-cake-candles/problem
 
-class BirthdayCakeCandles {
-    void solve() {
+class BirthdayCakeCandles implements Exercise {
+    public void solve() {
         Scanner scanner = new Scanner(in);
 
         int candles = parseInt(scanner.nextLine());

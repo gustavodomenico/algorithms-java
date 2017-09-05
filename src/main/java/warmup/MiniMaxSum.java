@@ -1,5 +1,7 @@
 package warmup;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 import static java.lang.Long.MAX_VALUE;
@@ -11,8 +13,8 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/mini-max-sum/problem
 
-class MiniMaxSum {
-    void solve() {
+class MiniMaxSum implements Exercise {
+    public void solve() {
         Scanner scanner = new Scanner(in);
 
         int array[] = new int[5];

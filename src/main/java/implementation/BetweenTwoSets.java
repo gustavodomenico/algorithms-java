@@ -1,12 +1,14 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 import static java.util.Arrays.sort;
 
 // https://www.hackerrank.com/challenges/between-two-sets/problem
 
-class BetweenTwoSets {
+class BetweenTwoSets implements Exercise {
 
     private static int getTotalX(int[] a, int[] b) {
         sort(a);

@@ -1,10 +1,12 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 // https://www.hackerrank.com/challenges/sock-merchant/problem
 
-class SockMerchant {
+class SockMerchant implements Exercise {
 
     private static int sockMerchant(int n, int[] ar) {
         if (n == 1) {

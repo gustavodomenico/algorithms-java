@@ -1,5 +1,7 @@
 package warmup;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 import static java.lang.Integer.parseInt;
@@ -8,8 +10,8 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/plus-minus/problem
 
-class PlusMinus {
-    void solve() {
+class PlusMinus implements Exercise {
+    public void solve() {
         Scanner scanner = new Scanner(in);
 
         int arraySize = parseInt(scanner.nextLine());

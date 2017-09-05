@@ -1,5 +1,7 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 import static java.lang.System.in;
@@ -7,7 +9,7 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/apple-and-orange/problem
 
-class AppleAndOrange {
+class AppleAndOrange implements Exercise {
 
     public void solve() {
         // Given code

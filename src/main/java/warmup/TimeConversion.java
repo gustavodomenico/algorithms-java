@@ -1,5 +1,7 @@
 package warmup;
 
+import common.Exercise;
+
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -9,8 +11,8 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/time-conversion/problem
 
-class TimeConversion {
-    void solve() {
+class TimeConversion implements Exercise {
+    public void solve() {
         Scanner scanner = new Scanner(in);
 
         String time = scanner.nextLine();

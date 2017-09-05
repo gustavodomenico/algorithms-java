@@ -1,5 +1,7 @@
 package implementation;
 
+import common.Exercise;
+
 import java.util.Scanner;
 
 import static java.lang.Integer.MAX_VALUE;
@@ -8,7 +10,7 @@ import static java.lang.System.out;
 
 // https://www.hackerrank.com/challenges/magic-square-forming/problem
 
-class FormingMagicSquare {
+class FormingMagicSquare implements Exercise {
 
     private static final int MATRIX_SIZE = 3;
 
