@@ -8,7 +8,7 @@ import static java.lang.Integer.parseInt;
 import static java.lang.System.in;
 import static java.lang.System.out;
 
-// https://www.hackerrank.com/challenges/migratory-birds/problem
+// https://www.hackerrank.com/challenges/utopian-tree/problem
 
 class UtopianTree implements Exercise {
 

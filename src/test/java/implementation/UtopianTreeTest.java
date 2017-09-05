@@ -26,5 +26,4 @@ public class UtopianTreeTest extends InOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT_SAMPLE0);
     }
-
 }
