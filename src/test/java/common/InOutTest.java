@@ -8,6 +8,7 @@ import java.io.PrintStream;
 
 import static java.lang.System.setIn;
 import static java.lang.System.setOut;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class InOutTest {
 
@@ -27,4 +28,13 @@ public class InOutTest {
     protected String output() {
         return outputStream.toString();
     }
+
+    protected void solve(String input, String output, Exercise exercise) {
+        input(input);
+
+        exercise.solve();
+
+        assertThat(output()).isEqualTo(output);
+    }
+
 }

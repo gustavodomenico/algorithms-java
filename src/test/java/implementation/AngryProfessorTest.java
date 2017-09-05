@@ -68,5 +68,4 @@ public class AngryProfessorTest extends InOutTest {
 
         assertThat(output()).isEqualTo(OUTPUT_CASE1);
     }
-
 }
