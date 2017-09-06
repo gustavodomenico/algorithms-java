@@ -36,5 +36,4 @@ public class InOutTest {
 
         assertThat(output()).isEqualTo(output);
     }
-
 }

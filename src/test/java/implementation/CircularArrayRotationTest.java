@@ -21,5 +21,4 @@ public class CircularArrayRotationTest extends InOutTest {
     public void shouldSolveExerciseForFirstTestInput() {
         solve(INPUT_SAMPLE0, OUTPUT_SAMPLE0, exercise);
     }
-
 }
