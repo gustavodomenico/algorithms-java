@@ -26,5 +26,4 @@ public class JumpingOnTheCloudsTest extends InOutTest{
     public void shouldSolveExerciseForFirstTestCase() {
         solve(INPUT_CASE1, OUTPUT_CASE1, exercise);
     }
-
 }
