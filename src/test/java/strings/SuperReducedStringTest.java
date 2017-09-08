@@ -34,5 +34,4 @@ public class SuperReducedStringTest extends InOutTest {
     public void shouldSolveExerciseForThirdTestInput() {
         solve(INPUT3, OUTPUT3, exercise);
     }
-
 }
