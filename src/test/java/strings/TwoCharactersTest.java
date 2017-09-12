@@ -16,5 +16,4 @@ public class TwoCharactersTest extends InOutTest {
     public void shouldSolveExerciseForFirstTestInput() {
         solve(INPUT, OUTPUT, exercise);
     }
-
 }

@@ -49,7 +49,6 @@ class TwoCharacters implements Exercise {
                 Character y = chars[j];
                 if (x == y) continue;
 
-
                 String newSentence = remove(sentence, x, y);
                 if (!pattern.matcher(newSentence).find()) {
                     result = max(result, newSentence.length());
