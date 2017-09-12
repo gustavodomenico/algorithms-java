@@ -42,6 +42,5 @@ class SherlockandSquares implements Exercise {
         }
 
         return squares;
-
     }
 }

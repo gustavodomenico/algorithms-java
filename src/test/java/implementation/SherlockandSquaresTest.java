@@ -20,5 +20,4 @@ public class SherlockandSquaresTest extends InOutTest {
     public void shouldSolveExerciseForFirstTestInput() {
         solve(INPUT, OUTPUT, exercise);
     }
-
 }
