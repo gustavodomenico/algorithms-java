@@ -22,7 +22,6 @@ class CamelCase implements Exercise {
                 words++;
             }
         }
-
         out.println(words + 1);
     }
 }
