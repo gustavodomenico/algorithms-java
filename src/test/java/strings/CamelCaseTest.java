@@ -4,7 +4,7 @@ import common.Exercise;
 import common.InOutTest;
 import org.junit.Test;
 
-public class CamelCaseTest  extends InOutTest {
+public class CamelCaseTest extends InOutTest {
 
     private Exercise exercise = new CamelCase();
 
