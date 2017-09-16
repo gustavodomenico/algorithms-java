@@ -1,7 +1,5 @@
 package strings;
 
-// https://www.hackerrank.com/challenges/two-characters/problem
-
 import common.Exercise;
 
 import java.util.HashSet;
@@ -14,6 +12,8 @@ import static java.lang.Math.max;
 import static java.lang.String.format;
 import static java.lang.System.in;
 import static java.lang.System.out;
+
+// https://www.hackerrank.com/challenges/two-characters/problem
 
 class TwoCharacters implements Exercise {
     public void solve() {
