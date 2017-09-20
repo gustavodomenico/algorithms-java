@@ -47,5 +47,4 @@ public class BeautifulBinaryStringTest extends InOutTest {
     public void shouldSolveExerciseForFourthTestCase() {
         solve(INPUT_CASE4, OUTPUT_CASE4, exercise);
     }
-
 }
