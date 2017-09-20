@@ -5,7 +5,7 @@ import common.InOutTest;
 
 import org.junit.Test;
 
-public class EncryptionTest  extends InOutTest {
+public class EncryptionTest extends InOutTest {
 
     private Exercise exercise = new Encryption();
 
