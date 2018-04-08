@@ -15,7 +15,6 @@ class CallAgents  implements Exercise {
 
         for (int i = 0; i < callsTimes.length; i++) {
             int agents = 1;
-
             int currentStart = callsTimes[i][0];
 
             for (int j = 0; j < i; j++) {
