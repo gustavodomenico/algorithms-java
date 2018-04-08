@@ -15,6 +15,4 @@ public class DeltaEncodeTest extends InOutTest {
     public void shouldSolveExerciseForFirstTestInput() {
         solve(INPUT0, OUTPUT0, exercise);
     }
-
-
 }
