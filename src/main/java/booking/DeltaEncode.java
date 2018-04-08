@@ -12,7 +12,7 @@ import static java.lang.System.in;
 import static java.lang.System.out;
 import static java.util.stream.Stream.of;
 
-class DeltaEncode implements Exercise{
+class DeltaEncode implements Exercise {
 
     private int[] deltaEncode(int[] array) {
         List<Integer> result = new ArrayList<>();

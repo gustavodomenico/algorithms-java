@@ -7,7 +7,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 import static java.lang.System.out;
 
-public class Triangles implements Exercise{
+class Triangles implements Exercise{
 
     private int isTriangle(int a, int b, int c) {
         if (a + b > c && a + c > b && b + c > a) {
