@@ -11,6 +11,6 @@ class WhichSection {
             studentPosition -= currentSectionSize;
             if (studentPosition <= 0) return i + 1;
         }
-        return a.length - 1;
+        return a.length;
     }
 }
