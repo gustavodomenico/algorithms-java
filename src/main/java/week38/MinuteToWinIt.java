@@ -7,10 +7,10 @@ package week38;
 // a[i -1] = a[i] - k
 class MinuteToWinIt {
     int minuteToWinIt(int[] a, int k) {
-        return Math.min(increasing(a.clone(), k), decreasing(a.clone(), k));
+        return Math.min(fromLater(a.clone(), k), fromEarlier(a.clone(), k));
     }
 
-    private int increasing(int[] a, int k) {
+    private int fromLater(int[] a, int k) {
         int moves = 0;
 
         for (int i = 1; i < a.length; i++) {
@@ -25,7 +25,7 @@ class MinuteToWinIt {
         return moves;
     }
 
-    private int decreasing(int[] a, int k) {
+    private int fromEarlier(int[] a, int k) {
         int moves = 0;
 
         for (int i = 0; i < a.length - 1; i++) {
