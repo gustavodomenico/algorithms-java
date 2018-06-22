@@ -38,4 +38,14 @@ public class MinuteToWinItTest {
         assertThat(exercise.minuteToWinIt(new int[] { 1, 3, -5, -6, 9, -9, 13}, 2 ), is(3));
     }
 
+    @Test
+    public void shouldSolveExerciseForSeventhInput() {
+        assertThat(exercise.minuteToWinIt(new int[] { 0, 3, 6, 7, 8, 11}, 2 ), is(3));
+    }
+
+    @Test
+    public void shouldSolveExerciseForEigthInput() {
+        assertThat(exercise.minuteToWinIt(new int[] { -2 , 2000, 3000, 4000, 5000, 10}, 2 ), is(5));
+    }
+
 }
