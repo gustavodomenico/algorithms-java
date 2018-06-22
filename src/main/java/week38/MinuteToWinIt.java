@@ -12,6 +12,7 @@ class MinuteToWinIt {
         int minMoves = Integer.MAX_VALUE;
 
         // For each position in the array
+        // This will timeout in hackerrank, add a iteration constraint...
         for (int i = 0; i < a.length; i++) {
             // Use the element as a pivot and fix the other parts
             int[] current = a.clone();
