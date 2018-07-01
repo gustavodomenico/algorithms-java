@@ -5,7 +5,7 @@ package interview.kit.arrays;
 @SuppressWarnings("PointlessArithmeticExpression")
 class TwoDimensionArray {
     int hourglassSum(int[][] arr) {
-        int sum = 0;
+        int sum = Integer.MIN_VALUE;
 
         for (int i = 0; i < arr.length - 2; i++) {
             for (int j = 0; j < arr[i].length - 2; j++) {
