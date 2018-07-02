@@ -1,4 +1,4 @@
-package interview.kit.dicts;
+package strings;
 
 import org.junit.Test;
 
