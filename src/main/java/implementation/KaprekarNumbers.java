@@ -16,7 +16,7 @@ class KaprekarNumbers {
         return result;
     }
 
-    private boolean isKaprekarNumber(int num) {
+    private boolean isKaprekarNumber(long num) {
         long squared = num * num;
 
         String digits = String.valueOf(squared);
