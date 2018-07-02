@@ -1,6 +1,6 @@
 package interview.kit.arrays;
 
-// https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_l=playlist&slugs%5B%5D=interview&slugs%5B%5D=interview-preparation-kit&slugs%5B%5D=arrays
+// https://www.hackerrank.com/challenges/minimum-swaps-2/problem
 
 class MinimumSwaps2 {
     int minimumSwaps(int[] A) {
