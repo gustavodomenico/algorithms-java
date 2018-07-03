@@ -6,8 +6,8 @@ import org.junit.Test;
 import static com.google.common.primitives.Ints.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TreeWalkingTest {
-    private TreeWalking exercise = new TreeWalking();
+public class BuildBinaryTreeTest {
+    private BuildBinaryTree exercise = new BuildBinaryTree();
 
     @Test
     public void shouldSolveForFirstInput() {
@@ -20,6 +20,10 @@ public class TreeWalkingTest {
                                 new TreeNode(5),
                                 new TreeNode(7)));
 
-        assertThat(exercise.inOrder(root)).isEqualTo(asList(1, 2, 3, 4, 5, 6, 7));
+       TreeNode newRoot = exercise.build(new int[]{1, 2, 3, 4, 5, 6, 7});
+
+        TreeWalking walk = new TreeWalking();
+        assertThat(walk.inOrder(newRoot)).isEqualTo(asList(1, 2, 3, 4, 5, 6, 7));
     }
+
 }
