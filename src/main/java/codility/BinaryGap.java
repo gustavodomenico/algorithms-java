@@ -14,8 +14,8 @@ class BinaryGap {
         // 1         - 1
 
         // Remove trailing zeros
-        while((float)number / 2 == number / 2) {
-            number /= 2;
+        while((number & 1) == 0 && number > 0) {
+            number >>= 1;
         }
 
         // While we have not shifted all bits
