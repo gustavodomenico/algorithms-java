@@ -2,30 +2,34 @@ package codility;
 
 public class MinAvgTwoSlice {
     public int solution(int[] A) {
-        return solutionAggressive(A);
+        return solutionFlawless(A);
     }
 
-    private int solutionAggressive(int[] A) {
-        // Get the prefix sum
-        int[] prefixSum = new int[A.length];
-        prefixSum[0] = A[0];
-        for (int i = 1; i < prefixSum.length; i++) {
-            prefixSum[i] = A[i] + prefixSum[i - 1];
-        }
+    private int solutionFlawless(int[] A) {
+        // Assume that the minimum average is between pairs or triples
+        // and test them
 
-        // For each sum, compute the min average
-        int minAverage = Integer.MAX_VALUE;
+        // Minimal average
+        double minAverage = (A[0] + A[1]) / 2.0;
+        int minFrom =  0;
 
-        for (int i = 0; i < prefixSum.length - 1; i++) {
-            for (int j = i + 1; j < prefixSum.length; j++) {
-                int from = prefixSum[i];
-                int to = prefixSum[j];
+        // For each pair or triple test the average
+        for (int i = 0; i < A.length - 2; i++) {
+            double pairAverage = (A[i] + A[i + 1]) / 2.0;
+            double tripleAverage = (A[i] + A[i + 1] + A[i + 2]) / 3.0;
 
-                int average = (to - from) / (j - i);
-                minAverage = Math.min(average, minAverage);
+            if (Math.min(pairAverage, tripleAverage) < minAverage) {
+                minAverage = Math.min(pairAverage, tripleAverage);
+                minFrom = i;
             }
         }
 
-        return minAverage;
+        // We need to test the latest pair, because of length - 2 in the loop above
+        double lastPairAverage = (A[A.length - 1] + A[A.length - 2]) / 2.0;
+        if (lastPairAverage < minAverage) {
+            minFrom = A.length - 2;
+        }
+
+        return minFrom;
     }
 }
