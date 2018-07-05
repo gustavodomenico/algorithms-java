@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FrogJumpTest {
-    private FrogJump exercise = new FrogJump();
+public class PermElementTest {
+    private PermElement exercise = new PermElement();
 
     @Test
     public void shouldSolveForFirstInput() {
-        assertThat(exercise.solution(10, 85, 30)).isEqualTo(3);
+        assertThat(exercise.solution(new int[] { 2, 3, 1, 5 } )).isEqualTo(4);
     }
 }
