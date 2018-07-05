@@ -8,7 +8,8 @@ public class PermElement {
 
         // Sum the ideal array n + 1 (one element is missing)
         // Sum of a series = (n * (n + 1)) / 2
-        long idealSum = ((A.length + 1) * (A.length + 2)) / 2;
+        long size = A.length;
+        long idealSum = ((size + 1) * (size + 2)) / 2;
 
         // The difference should be the missing element
         return (int)(idealSum - currentSum);
