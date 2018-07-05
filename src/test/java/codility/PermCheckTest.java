@@ -21,5 +21,4 @@ public class PermCheckTest {
     public void shouldSolveForThirdInput() {
         assertThat(exercise.solution(new int[] { 4, 1, 3 } )).isEqualTo(0);
     }
-
 }
