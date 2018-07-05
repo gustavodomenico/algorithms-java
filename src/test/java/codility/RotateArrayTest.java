@@ -16,6 +16,4 @@ public class RotateArrayTest {
     public void shouldSolveForSecondInput() {
         assertThat(exercise.solution(new int[] { 1, 2, 3, 4}, 4)).isEqualTo(new int[] {1, 2, 3, 4});
     }
-
-
 }
