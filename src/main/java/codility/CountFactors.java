@@ -1,7 +1,7 @@
 package codility;
 
 public class CountFactors {
-    public int solution(int N) {
+    public int solutionTosca(int N) {
         int result = 1; // N is a divisor of N
 
         // For each number until N / 2
@@ -15,14 +15,16 @@ public class CountFactors {
         return result;
     }
 
-    public int solutionSqrt(int N) {
+    public int solution(int N) {
         // Here the tricky part if that we can get all divisors from sqrt(N)
 
         int result = 0;
         int  i = 1;
 
+        double sn = Math.sqrt(N);
+
         // While we our number is less than the sqrt(n)
-        while(i * i < N) {
+        while(i < sn) {
             // If it is a divisor, we count 2
             if (N % i == 0) {
                 result += 2;
