@@ -11,7 +11,6 @@ public class AllSubstring {
                 list.add(s.substring(i, j));
             }
         }
-
         return list;
     }
  }
