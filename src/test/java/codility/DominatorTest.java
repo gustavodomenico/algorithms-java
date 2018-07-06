@@ -11,5 +11,4 @@ public class DominatorTest {
     public void shouldSolveForFirstInput() {
         assertThat(exercise.solution(new int[]{3, 4, 3, 2, 3, -1, 3, 3})).isEqualTo(7);
     }
-
 }
